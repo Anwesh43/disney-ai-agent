@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 agent = Agent(
-    model = 'openai:gpt-5.2',
+    model = 'openai:gpt-5.6',
     tools = getAvailableTools(),
     system_prompt = SYSTEM_PROMPT,
 )
